@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		182E214E2997551B0072E8C7 /* PersonaltravelguideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E214D2997551B0072E8C7 /* PersonaltravelguideApp.swift */; };
-		182E21502997551B0072E8C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E214F2997551B0072E8C7 /* ContentView.swift */; };
 		182E21522997551D0072E8C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182E21512997551D0072E8C7 /* Assets.xcassets */; };
 		182E21552997551D0072E8C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182E21542997551D0072E8C7 /* Preview Assets.xcassets */; };
+		182E215C29975CB00072E8C7 /* Guide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182E215B29975CB00072E8C7 /* Guide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		182E214A2997551B0072E8C7 /* Personaltravelguide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Personaltravelguide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182E214D2997551B0072E8C7 /* PersonaltravelguideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaltravelguideApp.swift; sourceTree = "<group>"; };
-		182E214F2997551B0072E8C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		182E21512997551D0072E8C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182E21542997551D0072E8C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		182E215B29975CB00072E8C7 /* Guide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				182E214D2997551B0072E8C7 /* PersonaltravelguideApp.swift */,
-				182E214F2997551B0072E8C7 /* ContentView.swift */,
+				188C860B29989B04001CB119 /* view */,
+				182E215B29975CB00072E8C7 /* Guide.swift */,
 				182E21512997551D0072E8C7 /* Assets.xcassets */,
 				182E21532997551D0072E8C7 /* Preview Content */,
 			);
@@ -65,6 +66,13 @@
 				182E21542997551D0072E8C7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		188C860B29989B04001CB119 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182E21502997551B0072E8C7 /* ContentView.swift in Sources */,
+				182E215C29975CB00072E8C7 /* Guide.swift in Sources */,
 				182E214E2997551B0072E8C7 /* PersonaltravelguideApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
